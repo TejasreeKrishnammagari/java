@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase Steps]]>
+    </line>
+    <line>
+      <![CDATA[1.Application opend]]>
+    </line>
+    <line>
+      <![CDATA[2.Typing user name]]>
+    </line>
+    <line>
+      <![CDATA[3.Typing passwrod]]>
+    </line>
+    <line>
+      <![CDATA[4.Login completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11830" started-at="2019-01-20T17:47:54Z" finished-at="2019-01-20T17:48:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11830" started-at="2019-01-20T17:47:54Z" finished-at="2019-01-20T17:48:05Z">
+      <class name="WebDriver.WebDriverWithTestng">
+        <test-method status="PASS" signature="startup()[pri:0, instance:WebDriver.WebDriverWithTestng@1560810]" name="startup" is-config="true" duration-ms="5160" started-at="2019-01-20T09:47:54Z" finished-at="2019-01-20T09:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:WebDriver.WebDriverWithTestng@1560810]" name="login" duration-ms="5821" started-at="2019-01-20T09:47:59Z" description="OrangeHRM" finished-at="2019-01-20T09:48:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase Steps]]>
+            </line>
+            <line>
+              <![CDATA[1.Application opend]]>
+            </line>
+            <line>
+              <![CDATA[2.Typing user name]]>
+            </line>
+            <line>
+              <![CDATA[3.Typing passwrod]]>
+            </line>
+            <line>
+              <![CDATA[4.Login completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WebDriver.WebDriverWithTestng@1560810]" name="teardown" is-config="true" duration-ms="821" started-at="2019-01-20T09:48:05Z" finished-at="2019-01-20T09:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WebDriver.WebDriverWithTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
