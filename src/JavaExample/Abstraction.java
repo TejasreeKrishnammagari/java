@@ -1,5 +1,5 @@
 package JavaExample;
-abstract class Bank{
+abstract class Bank{//comment
 	abstract void credit();
 	abstract void debit();
 } 
